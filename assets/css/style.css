@@ -1,12 +1,16 @@
 @charset "UTF-8";
 
-.container {
-  display: grid;
-  height: 100vh;
+body {
+  background-color: #121212;
 }
 
-/*
-================================
-アニメーション内容を記述
-================================
-*/
+.text-bg-mask {
+  height: 100svh;
+  font-size: 15vw;
+  color: transparent;
+  text-align: center;
+  align-content: center;
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-image: url('..//img/fireworks.jpg');
+}
